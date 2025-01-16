@@ -7,4 +7,3 @@ DEVICE_NAME = "barrier"
 U_STEP = 0.025 * consts.VOLT
 E_STEP = 1e-4 * consts.EV
 X_STEP = 0.1 * consts.NM
-

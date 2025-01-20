@@ -24,7 +24,7 @@ def get_hamiltonian(device: Dict[str, np.ndarray]):
         H[i, i] = T0 * (1 / m_phdx + 1 / m_mhdx) + Vs[i]
 
     H[0, 0] = T0 * 2 / ms[0] + Vs[0]
-    H[1, 2] = -T0 / ms[0]
+    H[0, 1] = -T0 / ms[0]
     H[-1, -1] = T0 * 2 / ms[-1] + Vs[-1]
     H[-1, -2] = -T0 / ms[-1]
 

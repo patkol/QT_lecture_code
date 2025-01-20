@@ -20,11 +20,10 @@
 
 ## Plan
     + Device construction
-    - Hamiltonian construction
-    - bandstructure
+    + Hamiltonian construction
+    + bandstructure
     - scattering
     - transport NEGF (simplified scattering)
     - self_consistent
     - transport WF
     - 2D
-

@@ -1,7 +1,7 @@
 import constants as consts
 
 
-DEVICE_NAME = "barrier"
+DEVICE_NAME = "well"
 
 # Resolution in voltage, energy and space
 U_STEP = 0.025 * consts.VOLT

@@ -50,4 +50,32 @@ device_properties_dict: Dict[str, Dict] = {
             12 * EPSILON_0,
         ],
     },
+    "well": {
+        "boundaries": [
+            0 * NM,
+            30 * NM,
+            40 * NM,
+            70 * NM,
+        ],
+        "V_internal": [
+            1 * EV,
+            0 * EV,
+            1 * EV,
+        ],
+        "m_eff": [
+            0.1 * M_E,
+            0.065 * M_E,
+            0.1 * M_E,
+        ],
+        "doping": [
+            0,
+            0,
+            0,
+        ],
+        "permittivity": [
+            6 * EPSILON_0,
+            12 * EPSILON_0,
+            6 * EPSILON_0,
+        ],
+    },
 }

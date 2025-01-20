@@ -1,12 +1,14 @@
 from typing import Dict
 import os
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # type: ignore
 
 import constants as consts
 
 
-def plot_device(device: Dict[str, np.ndarray], *, prefix: str="plots/", postfix: str=".svg"):
+def plot_device(
+    device: Dict[str, np.ndarray], *, prefix: str = "plots/", postfix: str = ".svg"
+):
     """
     Plot all the device properties vs. x.
     """
